@@ -45,7 +45,7 @@
       @apply lg:relative lg:justify-self-end lg:space-y-10 lg:w-[50vw] lg:max-w-[600px] lg:min-w-[500px] lg:-bottom-1 lg:bg-white   lg:flex lg:flex-col lg:justify-end lg:px-20 space-y-4 px-4 lg:self-end lg:h-2/3 lg:text-start col-start-1 col-end-[-1] row-start-1 row-end-[-1]  text-center;
       &__title {
         @apply leading-lose font-Josefin uppercase;
-        font-size: clamp(1.5rem, 4vw, 3rem);
+        font-size: clamp(2rem, 4vw, 3rem);
       }
       &__text {
         @apply text-gray-500 font-Alata leading-loose;
