@@ -14,7 +14,7 @@ function App() {
       <InfoSection />
       <ProjectSection />
       <FooterSection />
-      {/* <Gsap /> */}
+      <Gsap />
     </div>
   );
 }
