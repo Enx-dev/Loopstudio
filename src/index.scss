@@ -31,7 +31,7 @@
   .HeroSection {
     @apply bg-heroMobile px-6 lg:mb-12 md:bg-heroDesktop w-full grid place-content-center md:px-10 lg:px-32 md:justify-start md:items-center h-[120vh] bg-cover;
     &__title {
-      @apply text-white leading-9 w-[90vw] max-w-lg  lg:leading-[4rem] py-6 pl-6 pr-12 font-Josefin border-2 uppercase border-white;
+      @apply text-white leading-9 w-[90vw] max-w-lg  lg:leading-lose py-6 pl-6 pr-12 font-Josefin border-2 uppercase border-white;
       font-size: clamp(2.3rem, 4vw, 3.75rem);
     }
   }
@@ -44,11 +44,11 @@
     &__gridContent {
       @apply lg:relative lg:justify-self-end lg:space-y-10 lg:w-[50vw] lg:max-w-[600px] lg:min-w-[500px] lg:-bottom-1 lg:bg-white   lg:flex lg:flex-col lg:justify-end lg:px-20 space-y-4 px-4 lg:self-end lg:h-2/3 lg:text-start col-start-1 col-end-[-1] row-start-1 row-end-[-1]  text-center;
       &__title {
-        @apply leading-[1.3em] font-Josefin uppercase;
+        @apply leading-lose font-Josefin uppercase;
         font-size: clamp(2.3rem, 4vw, 3rem);
       }
       &__text {
-        @apply text-gray-500 font-Alata leading-[1.5em];
+        @apply text-gray-500 font-Alata leading-loose;
       }
     }
   }
@@ -70,12 +70,12 @@
   #Cards {
     @apply w-full cursor-pointer  max-w-md h-36 bg-no-repeat bg-cover bg-center  text-white text-3xl uppercase font-Josefin font-light flex items-end p-3 md:h-[24rem] md:w-64;
     p {
-      @apply max-w-[170px];
+      @apply max-w-custom1;
     }
   }
   #Cards:nth-child(4) {
     p {
-      @apply max-w-[50px];
+      @apply max-w-custom2;
     }
   }
   //Footer Styles

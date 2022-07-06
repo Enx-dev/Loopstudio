@@ -44,6 +44,13 @@ module.exports = {
         fromUpDesktop:
           "linear-gradient( to right,rgba(0,0,0,0.66) 20%,rgba(0,0,0,0)),url('./images/desktop/image-from-above.jpg')",
       },
+      lineHeight: {
+        lose: "4rem",
+      },
+      maxWidth: {
+        custom1: "150px",
+        custom2: "50px",
+      },
     },
   },
   plugins: [],
